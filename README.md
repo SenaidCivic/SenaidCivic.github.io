@@ -1,2 +1,2 @@
 # SenaidCivic.github.io
-[Kreativ side](html-website/)
+[Kreativ side](genial-website/)
