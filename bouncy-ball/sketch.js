@@ -13,4 +13,9 @@ let Diameter=100
 function draw() {
   background(255);
 circle(xPos,yPos,Diameter);
+
+xPos+=3
+yPos+=3
+
+if(touchRrightSide || touchLeftSide)
 }
