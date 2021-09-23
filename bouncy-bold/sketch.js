@@ -1,9 +1,13 @@
+let xPos
+let yPos
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  xPos=width / 2
+  yPos=height / 2
 }
 
-let xPos=windowWidth/2
-let yPos=windowHeight/2
+
 let Diameter=100
 
 function draw() {
