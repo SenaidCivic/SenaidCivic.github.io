@@ -1,21 +1,32 @@
-let xPos
-let yPos
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  xPos=width / 2
-  yPos=height / 2
 }
 
+let xPos=50;
+let yPos=50;
+let Diameter=100;
+let ySpeed=10;
+let xSpeed=10;
+let color=0
 
-let Diameter=100
+touchRightSide=window.innerWidth-50;
+touchLeftSide=0+50;
+touchBottom=window.innerHeight-50;
+touchTop=0+50
 
-function draw() {
+function draw(){
   background(255);
-circle(xPos,yPos,Diameter);
+  circle(xPos,yPos,Diameter);
 
-xPos+=3
-yPos+=3
+  xPos=xPos+xSpeed;
+  yPos=yPos+ySpeed;
 
-if(touchRrightSide || touchLeftSide)
+  if(xPos >= touchRightSide || xPos <= touchLeftSide){
+   xSpeed=-xSpeed
+   fill ('blue')
 }
+if(yPos >= touchBottom || yPos <= touchTop){
+  ySpeed=-ySpeed
+  fill ('red')
+}
+}  
