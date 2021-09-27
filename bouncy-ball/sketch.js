@@ -7,7 +7,6 @@ let yPos=50;
 let Diameter=100;
 let ySpeed=10;
 let xSpeed=10;
-let color=0
 
 touchRightSide=window.innerWidth-50;
 touchLeftSide=0+50;
