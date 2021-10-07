@@ -5,8 +5,8 @@ function setup() {
 let xPos=50;
 let yPos=50;
 let Diameter=100;
-let ySpeed=10;
-let xSpeed=10;
+let ySpeed=20;
+let xSpeed=20;
 
 touchRightSide=window.innerWidth-50;
 touchLeftSide=0+50;
