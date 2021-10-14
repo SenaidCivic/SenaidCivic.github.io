@@ -8,8 +8,6 @@ function draw() {
   line (0,windowHeight/2,windowWidth,windowHeight/2)
   circle (mouseX,mouseY,100)
   fill ('white')
-  if (mouseX < windowWidth / 2 && mouseY > windowHeight / 2)
-    fill ('red')
-    if (mouseX > windowWidth / 2 && mouseY < windowHeight / 2)
+  if (mouseX < windowWidth / 2 && mouseY > windowHeight / 2 || mouseX > windowWidth / 2 && mouseY < windowHeight / 2)
     fill ('red')
 }
