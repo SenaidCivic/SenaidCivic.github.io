@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  text("output",20,20)
+  textSize(100)
+  text("Tjek Console",20,windowHeight / 2)
 
   //Lav et program, der tæller nedad fra 10 til 1.
   console.log("opgave 1 while løkken")
