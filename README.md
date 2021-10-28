@@ -4,3 +4,4 @@
 - [Bouncy Ball](bouncy-ball/)
 - [Red White Ball](redWhiteBall/)
 - [Loop opgave](loopOpgave/)
+- ["Funny line"](draw-line/)
