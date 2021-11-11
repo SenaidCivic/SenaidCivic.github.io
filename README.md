@@ -5,3 +5,4 @@
 - [Red White Ball](redWhiteBall/)
 - [Loop opgave](loopOpgave/)
 - ["Funny line"](draw-line/)
+- ["Many lines"](draw-lines/)
