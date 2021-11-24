@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   background(255);
-line (xStart, yStart,xEnd, yEnd)
+
 
 if (mouseIsPressed){
   strokeWeight(5)
@@ -17,7 +17,7 @@ if (mouseIsPressed){
 yEnd = mouseY
 }
 
-
+line (xStart, yStart,xEnd, yEnd)
 }
 
 function mousePressed(){
